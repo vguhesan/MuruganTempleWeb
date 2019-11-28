@@ -94,30 +94,45 @@ jQuery(document).ready(function() {
 
 var bannerHrefLinks = "{}";
 
+// function loadJSONLinksFromFile() {
+//     var rndNum = Math.floor(Math.random() * 100000);
+//     var jsonFile = '/banner-images/bannerlinksfile.json?rnd='+ rndNum;
+//     return $.ajax({url: jsonFile}).then(function(jsonlinks) {
+//         console.log("jsonLinks:");
+//         console.log(jsonlinks);
+//         bannerHrefLinks = jsonlinks;
+//     });
+// }
+
 function loadJSONLinksFromFile() {
     var rndNum = Math.floor(Math.random() * 100000);
     var jsonFile = '/banner-images/bannerlinksfile.json?rnd='+ rndNum;
-    $.ajax({url: jsonFile}).then(function(jsonlinks) {
-        console.log("jsonLinks:");
-        console.log(jsonlinks);
-        bannerHrefLinks = jsonlinks;
-    });
+    return $.ajax({url: jsonFile});
 }
+
+function fetchImgList() {
+    var imgFilesDirectory = '/banner-images/';
+    return $.ajax({url: imgFilesDirectory});
+}
+
 
 var imgPrefixPath2 = '/banner-images/';
 jQuery(document).ready(function() {
     // Load the links file for banners
-    loadJSONLinksFromFile();
-    // Fetch all slides from server /banner-images/
-    var imgFilesDirectory = imgPrefixPath2;
-    var str = '';
+    var bannerHrefLinks = "{}";
 
-    // get auto-generated page 
-    $.ajax({url: imgFilesDirectory}).then(function(html) {
+    $.when(loadJSONLinksFromFile(), fetchImgList()).done( function(a1, a2) {
+        bannerHrefLinks = a1[0];
+        console.log("a1");
+        console.log(a1);
+        console.log("bannerHrefLinks");
+        console.log(bannerHrefLinks);
         // create temporary DOM element
-        var document = $(html);
-        console.log("pos-A");
+        var document = $(a2[0]);
+        console.log("a2");
+        console.log(a2);
         // find all links ending with .jpg 
+        var str = '';
         document.find('a[href$=".jpg"], a[href$=".png"]').each(function() {
             console.log("pos-B");
             var jpgName = $(this).text();
@@ -137,15 +152,16 @@ jQuery(document).ready(function() {
                     hrefBeginPortion = "<a href=\"" + linkUrl + "\" target=\"" + target + "\" >";
                     hrefEndPortion = '</a>';
                 }
-            })
+            });
 
             //<div class="rsContent">
             //<img class="rsImg" src="/p/static/img/mainslider1/Brahmotsavam-webv2-1.jpg" alt="Brahmotsavam 2019" />
             //</div>
+            
             str += '<div class="rsContent">' + hrefBeginPortion + '<img class="rsImg" src="' + newJpgUrl + '"/>' + hrefEndPortion + '</div>';
 
         });
-        console.log("pos-F");
+
         console.log(str);
         $('#sliderone').prepend(str);
 
@@ -166,8 +182,6 @@ jQuery(document).ready(function() {
               delay: 10000,
             },
         });
-        
     });
-
 });
 
