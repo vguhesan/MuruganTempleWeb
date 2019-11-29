@@ -4,7 +4,7 @@ date: 2019-11-26T19:38:20-05:00
 draft: true
 ---
 
-<a class="btn btn-success m-2 float-right" href="https://app.murugantemple.org/" role="button">Pooja Booking & Services Request</a>
+<a class="btn btn-success m-2 float-right" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Pooja Booking & Services Request</a>
 
 The following are among the services that will be provided at the Temple or at Devotees’ residences as appropriate, upon request. Devotees are urged to make prior arrangements by calling the Temple in advance to make reservations and to ascertain that priests will be available to perform these special requests. Appropriate charge for the services including Sambhavanai for the priests will be payable to the temple.
 
@@ -330,5 +330,27 @@ NOTE: If you are sending any checks for various services offered at the temple o
 
 <h5>Please note that you will be redirected to our secure site for all services.</h5> 
 
-<a class="btn btn-success m-2 float-right" href="https://app.murugantemple.org/" role="button">Pooja Booking & Services Request</a>
+<a class="btn btn-success m-2 float-right" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Pooja Booking & Services Request</a>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Not Available</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        The "Online Pooja Booking & Services Request" is not currently available. Meanwhile, please make a donation for the total services required using the "Donate" option and contact the temple manager at (301) 552-4889 to provide the required details. Thank you.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
