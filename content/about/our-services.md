@@ -1,7 +1,7 @@
 ---
 title: "Religious Services"
 date: 2019-11-26T19:38:20-05:00
-draft: true
+draft: false
 ---
 
 <a class="btn btn-success m-2 float-right" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Pooja Booking & Services Request</a>
@@ -343,7 +343,7 @@ NOTE: If you are sending any checks for various services offered at the temple o
         </button>
       </div>
       <div class="modal-body">
-        The "Online Pooja Booking & Services Request" is not currently available. Meanwhile, please make a donation for the total services required using the "Donate" option and contact the temple manager at (301) 552-4889 to provide the required details. Thank you.
+        The "Online Pooja Booking & Services Request" is not currently available. Meanwhile, please make a donation for the total services required using the "Donate Online" option and contact the temple manager at (301) 552-4889 to provide the required details. Thank you.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

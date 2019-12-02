@@ -1,7 +1,7 @@
 ---
 title: "About Murugan Temple"
 date: 2019-11-26T19:38:20-05:00
-draft: true
+draft: false
 ---
 
 <img src="/img/content/outside1.jpg" class="img-fluid rounded float-center p-2" alt="Main Diety">

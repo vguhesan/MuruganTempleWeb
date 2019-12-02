@@ -42,6 +42,9 @@
 
 }
 
+a.donatebtn {
+	color: #ffe301 !important;
+}
 
 .dropdown-item {
 	color: #fff;

@@ -1,7 +1,7 @@
 ---
 title: "Temple Management"
 date: 2019-11-26T19:39:07-05:00
-draft: true
+draft: false
 ---
 
 ### Our Board of Trustees
