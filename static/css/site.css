@@ -68,6 +68,14 @@
 div.navbar-collapse.collapse.show {
     z-index: 99999;
     background-color: #5a1205;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    width: 90%;
+}
+
+div.navbar-collapse.collapse.show ul{
+    padding-left: 20px;
 }
 
 #myCarousel {
