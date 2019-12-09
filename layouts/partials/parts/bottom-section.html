@@ -87,6 +87,16 @@
                         <p class="mb-0">Email: <a href='m&#97;i&#108;t&#111;&#58;c%6&#70;n&#37;74act%7&#53;s&#64;m&#117;&#114;u&#103;an%&#55;&#52;&#37;65mple&#46;org'>c&#111;ntactu&#115;&#64;m&#117;ru&#103;ant&#101;m&#112;le&#46;org</a></p>
                         <p class="mb-0">Phone: (301) 552-4889</p>
                         <hr class="style14">
+                        <div class="row">
+                          <div class="col-lg-12" align="center">
+                            <p class="mb-0">Join our WhatsApp Group</p>
+                            <img src="/img/content/scan_to_join_whatsapp.png?rnd=67" width="120" class="img-fluid rounded float-center p-2" alt="Scan To Join Murugan Temple WhatsApp Group">
+                            <p class="mb-0">
+                              Or visit link <a href="https://chat.whatsapp.com/9FaUvaISnr75FY1OWg6dnx">here</a>
+                            </p>
+                          </div>
+                        </div>
+                        <hr class="style14">
                     </div>
                 </div>
                 <!-- .col-md-3 end -->
@@ -127,12 +137,15 @@
                     <li><a href="/about/administration/">Temple Management</a></li>
                     <li><a href="/about/endowment/">Temple Endowment Fund</a></li>
                     <li><a class="donatebtn" href="/about/donate-online">Donate Online</a></li>
+                    <li><a href="/events/">Upcoming Events</a></li>
                   </ul>
                 </div>
                 <div class="col-xs-4 col-sm-12 col-md-4 footer-text-left">
                   <ul class="footer-text-list-style">
                     <li><a href="https://kitchen.murugantemple.org/" target="_blank">Murugan Temple Kitchen</a></li>
                     <li><a href="/about/year-end-statement/">Year-End Statement</a></li>
+                    <li><a href="/about/volunteers/">Volunteer With Us</a></li>
+                    <li><a href="/about/childrens-school/">Childrens School</a></li>
                   </ul>
                 </div>
             </div>
@@ -160,7 +173,10 @@
 
 <script type="text/javascript">
   var origin_mod = window.location.origin + '/';
-  if (origin_mod == window.location.href.split('#')[0]) {
+  // Count the number of slashes and if it equals 3 then we are on home-page
+  var slashCount = (window.location.href.match(/\//g)||[]).length;
+  //if (origin_mod == window.location.href.split('#')[0]) {
+  if (slashCount == 3) {
     document.write('<scri'+'pt src="/js/rsconfig-homepage-only.js" type="text/javascript"></'+'script>');
   } 
   else {
@@ -247,6 +263,15 @@ $( document ).ready(function() {
     });
   });
 </script>
+
+<script type="text/javascript">
+if (location.protocol != 'https:' && (location.hostname.indexOf("localhost") == -1 && location.hostname.indexOf("0.0.0.0") == -1) )
+{
+     var rndNum = Math.floor(Math.random() * 100000);
+     location.href = 'https:' + window.location.href.substring(window.location.protocol.length) + '?rnd=' + rndNum;
+}
+</script>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--

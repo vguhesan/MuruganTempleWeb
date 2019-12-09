@@ -67,7 +67,7 @@ jQuery(document).ready(function() {
         document.find('a[href$=".jpg"], a[href$=".png"]').each(function() {
             var jpgName = $(this).text();
             var jpgUrl = $(this).attr('href');
-            var newJpgUrl = jpgUrl.replace(/slider-images/g, 'slider-images');
+            var newJpgUrl = '/slider-images/' + jpgUrl.replace(/slider-images/g, 'slider-images');
 
             str += '<li class="touchcarousel-item"><img src="' + newJpgUrl + '" width="400"/></li>';
 
@@ -118,14 +118,16 @@ jQuery(document).ready(function() {
         document.find('a[href$=".jpg"], a[href$=".png"]').each(function() {
             var jpgName = $(this).text();
             var jpgUrl = $(this).attr('href');
-            var newJpgUrl = jpgUrl.replace(/banner-images/g, 'banner-images');
+            var newJpgUrl = imgPrefixPath2 + jpgUrl.replace(/banner-images/g, 'banner-images');
             var hrefBeginPortion = '';
             var hrefEndPortion = '';
             $(bannerHrefLinks).each(function( i, val ) {
                 filename = val['filename'];
-                linkUrl = val['link'];
+                linkUrl = val['link'] + '?rnd=' + Math.floor(Math.random() * 100) + 1;
                 target = val['target'];
-                if (jpgUrl.toLowerCase().indexOf(filename.toLowerCase()) > 0) {
+                //console.log(jpgUrl.toLowerCase() + " =?= " + filename.toLowerCase());
+                //console.log(jpgUrl.toLowerCase().indexOf(filename.toLowerCase()));
+                if (jpgUrl.toLowerCase().indexOf(filename.toLowerCase()) > -1) {
                     hrefBeginPortion = "<a href=\"" + linkUrl + "\" target=\"" + target + "\" >";
                     hrefEndPortion = '</a>';
                 }

@@ -7,7 +7,7 @@ draft: false
 ### Our Board of Trustees
 
 - Dr. Guruswamy Gopal - Chairman
-- Mr. Gnanavel Munirathnam - Secretary
+- Mr. Gnanavel Munirathinam - Secretary
 - Mrs. Nagulam Loganathan
 - Mr. Rotter Jeyakumar Mariampillai
 - Mrs. Shobana Mylvaganam
@@ -33,13 +33,13 @@ The contact details has not been shown above to protect the privacy of the indiv
 ## Committees
 
 - Mrs. Muthukannu Guruswamy - Religious
-- Mr. Gnanavel - Cultural and Entertainment
+- Mr. Gnanavel Munirathinam - Cultural and Entertainment
 - Mr. Saravanan Seetharaman - Food
 - Dr. Mouna Selvam - Fundraising
 - Mr. Roopan Jeganathan - Publicity & Public Relations
 - Mr. Vayudeva - Education
-- Mr. Venkatt Guhesan Web & Infrastructure
-- Mrs. Mythili Gnanavel - Voluteer Group
+- Mr. Venkatt Guhesan - Web & Infrastructure
+- Mrs. Mythili Arun - Voluteer Group
 
 The contact details has not been shown above to protect the privacy of the individuals. To contact the leads of the Executive Groups, please call the temple at (301) 552-4889 and talk to the temple manager requesting the information.
 

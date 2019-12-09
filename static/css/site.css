@@ -38,6 +38,7 @@
 
 	.footer-text-list-style {
 		list-style-type: none;
+		margin-left: -34px;
 	}
 
 }

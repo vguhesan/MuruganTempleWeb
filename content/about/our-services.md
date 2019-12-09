@@ -343,7 +343,7 @@ NOTE: If you are sending any checks for various services offered at the temple o
         </button>
       </div>
       <div class="modal-body">
-        The "Online Pooja Booking & Services Request" is not currently available. Meanwhile, please make a donation for the total services required using the "Donate Online" option and contact the temple manager at (301) 552-4889 to provide the required details. Thank you.
+        The "Online Pooja Booking & Services Request" is currently unavailable. Meanwhile, please make a donation for the total amount for the required services using the "Donate Online" option (at top menu bar) and contact the temple manager at (301) 552-4889 to provide the required details such as natchatra and gotram details. We will ensure that the services are performed. Thank you.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
