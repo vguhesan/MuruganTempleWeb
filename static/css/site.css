@@ -4,6 +4,10 @@
     background-color: #5a1205 !important;
 }
 
+.tagline {
+	color: #fff;
+}
+
 .navbar {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -242,7 +246,7 @@ footer {
 }
 
 .footer--reservation-wrapper {
-	padding: 14px 5px 40px 5px;
+	padding: 14px 5px 10px 5px;
 }
 
 .footer--reservation h3 {
@@ -348,7 +352,10 @@ footer {
 /* Footer Copyrights */
 .footer--copyright {
 	background-color: #141414;
-	padding: 37px 0;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 37px;
+	padding-left: 0px;
 	position: relative;
 }
 

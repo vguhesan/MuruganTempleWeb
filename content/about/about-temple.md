@@ -4,7 +4,18 @@ date: 2019-11-26T19:38:20-05:00
 draft: false
 ---
 
-<img src="/img/content/outside1.jpg" class="img-fluid rounded float-center p-2" alt="Main Diety">
+<div>
+	<div class="col-lg-12" align="center">
+		<b>தமிழால் இணைவோம் முருகன் அருள் பெறுவோம்</b>
+	</div>
+</div>
+
+<div>
+	<div class="col-lg-12" align="center">
+		<img src="/img/content/outside1.jpg" class="img-fluid rounded float-center p-2" alt="Main Diety">
+	</div>
+</div>
+
 
 The history and development of Murugan Temple of North America is a fascinating and simultaneously heart-warming experience for those who have been involved since its inception. It is a story to be told, read and preserved for posterity. It is the story that reflects the glory of Lord Murugan and His immeasurable blessings to all His devotees, wherever they may live and worship him.
 
