@@ -38,7 +38,8 @@ The contact details has not been shown above to protect the privacy of the indiv
 - Dr. Mouna Selvam - Fundraising
 - Mr. Roopan Jeganathan - Publicity & Public Relations
 - Mr. Vayudeva - Education
-- Mr. Venkatt Guhesan - Web & Infrastructure
+- Mr. Venkatt Guhesan - Web | IT 
+- Mr. Ganayswaran Nathan - Infrastructure
 - Mrs. Mythili Arun - Voluteer Group
 
 The contact details has not been shown above to protect the privacy of the individuals. To contact the leads of the Executive Groups, please call the temple at (301) 552-4889 and talk to the temple manager requesting the information.
