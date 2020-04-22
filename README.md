@@ -6,7 +6,7 @@ Site is built on Hugo Static Site generator.
 hugo server -D
 hugo server -D --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313
 
-### Steps for deplyment to GITHub
+### Steps for deployment to GITHub
 
 The "public" directory is stored under murugantemple account for leveraging github-pages feature.
 Site is deployed using GitHub - Pages.
