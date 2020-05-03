@@ -35,11 +35,11 @@ If there is a service that is not listed, please make a general donation for the
                   <option value="Oil Lamp,$3"                   >Oil Lamp .................................... $3</option>
                   <option value="Neivedhyam (small tray),$41"   >Neivedhyam (small tray) ..................... $41</option>
                   <option value="Neivedhyam (medium tray),$61"  >Neivedhyam (medium tray) .................... $61</option>
-                  <option value="Neivedhyam (large tray),$91"   >Neivedhyam (large tray) .................... $91</option>
+                  <option value="Neivedhyam (large tray),$91"   >Neivedhyam (large tray) ..................... $91</option>
                   <option value="Vada Malai (51 vadai),$41"     >Vada Malai (for 51 vadai) ................... $41</option>
                   <option value="Vada Malai (101 vadai),$75"    >Vada Malai (for 101 vadai) .................. $75</option>
                   <option value="0"                             >----------------------------------------------------------</option>
-                  <option value="Test,$1"                       >Test (no service will be performed) .............. $1</option>
+                  <option value="Test,$1"                       >Test (no service will be performed) ......... $1</option>
                 </select>
               </div>
             </div>
@@ -89,8 +89,8 @@ If there is a service that is not listed, please make a general donation for the
               </div>
             </div>
             <div class="row">
-              <div class="col p-1">
-                <a class="btn btn-primary btn-sm item_add" href="javascript:;" id="addItemToCart" 
+              <div class="col p-1 d-flex justify-content-center">
+                <a class="btn btn-primary btn-sm" href="javascript:;" id="addItemToCart" 
                 onClick="javascript: processItem();" role="button">Add Item To Cart</a>
               </div>
             </div>
@@ -178,7 +178,7 @@ If there is a service that is not listed, please make a general donation for the
             </div>
           </div>
           <div class="row">
-            <div class="col m-1">
+            <div class="col m-1 d-flex justify-content-center">
               <a href="#" class="btn btn-primary btn-sm" onClick="javascript: processFamily();">Add Member Details To Cart</a>
             </div>
           </div>
@@ -238,7 +238,15 @@ simpleCart({
 function processItem() {
   selOption = $('#serviceList').val();
   if (selOption == '0') {
-    alert("Please choose a service");
+    //alert("Please choose a service");
+    new Noty({
+      theme: 'sunset',
+      text: 'Please select a service!',
+      type: 'alert',
+      layout: 'center',
+      timeout: 1500
+    }).show();
+    $('#serviceList').focus();
   }
   else {
     eleItems = selOption.split(',');
