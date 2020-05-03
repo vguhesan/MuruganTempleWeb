@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "mtna"
 
+[markup.goldmark.renderer]
+unsafe= true
