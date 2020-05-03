@@ -315,8 +315,8 @@ function processFamily() {
     phone: $('#phone').val(),
   });
   $('#fullName').val('');
-  $('#naksha').val();
-  $('#raasi').val();
+  $('#naksha').val('-');
+  $('#raasi').val('-');
   $('#gothram').val('');
   $('#email').val('');
   $('#phone').val('');
