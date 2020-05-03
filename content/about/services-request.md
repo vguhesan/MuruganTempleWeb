@@ -12,9 +12,9 @@ If there is a service that is not listed, please make a general donation for the
   <div class="row">
     <div class="col-sm">
       <div class="card">
-        <h5 class="card-header">Step 1 of 3: Available Services</h5>
+        <h5 class="card-header">Step 1 of 3: Choose from available services</h5>
         <div class="card-body">
-          <p class="card-text">Please add each service to your cart.</p>
+          <p class="card-text">Please add each of the required services one by one to your cart. Then proceed to step 2.</p>
           <form>
           <div class="">
             <div class="row">
@@ -101,9 +101,9 @@ If there is a service that is not listed, please make a general donation for the
     </div>
     <div class="col-sm">
       <div class="card">
-        <h5 class="card-header">Step 2 of 3: Family Member Details (optional)</h5>
+        <h5 class="card-header">Step 2 of 3: Enter family member details (optional)</h5>
         <div class="card-body">
-          <p>Enter details of each family member below. If you are the primary member, please provide your telephone and email address.</p>
+          <p>Please add details of each family member and add them to the cart. Then proceed to step 3. If you are the primary member, please provide your telephone and email address so that we can contact you.</p>
           <div class="row">
             <div class="col m-1">
                 <input type="text" class="form-control" id="fullName" placeholder="Full Name">
