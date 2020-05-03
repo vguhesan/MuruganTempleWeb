@@ -275,7 +275,7 @@ function processItem() {
       instr: $('#instructions1').val()
     });
     
-    displayNotice = 'Item has been added to the cart!';    
+    displayNotice = 'Item has been added to the cart below!';    
     new Noty({
       theme: 'sunset',
       text: displayNotice,
@@ -306,7 +306,7 @@ function processFamily() {
   $('#gothram').val('');
   $('#email').val('');
   $('#phone').val('');
-  displayNotice = 'Family member details has been added to cart!';    
+  displayNotice = 'Family member details has been added to cart below!';    
   new Noty({
     theme: 'sunset',
     text: displayNotice,
