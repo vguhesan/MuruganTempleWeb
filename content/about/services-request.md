@@ -242,9 +242,13 @@ function processItem() {
     new Noty({
       theme: 'sunset',
       text: 'Please select a service!',
-      type: 'alert',
+      type: 'error',
       layout: 'center',
-      timeout: 1500
+      timeout: 1500,
+      animation: {
+        open: 'animated bounceInDown', // Animate.css class names
+        close: 'animated bounceOutUp' // Animate.css class names
+      },
     }).show();
     $('#serviceList').focus();
   }
@@ -281,7 +285,11 @@ function processItem() {
       text: displayNotice,
       type: 'alert',
       layout: 'center',
-      timeout: 1500
+      timeout: 1500,
+      animation: {
+        open: 'animated bounceInUp', // Animate.css class names
+        close: 'animated bounceOutDown' // Animate.css class names
+      },
     }).show();
     /* reset elements */
     $('#serviceList').val('0');
@@ -312,7 +320,11 @@ function processFamily() {
     text: displayNotice,
     type: 'alert',
     layout: 'center',
-    timeout: 1500
+    timeout: 1500,
+    animation: {
+      open: 'animated bounceInUp', // Animate.css class names
+      close: 'animated bounceOutDown' // Animate.css class names
+    },
   }).show();
   $('#fullName').focus();
 }
