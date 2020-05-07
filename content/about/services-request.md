@@ -269,20 +269,21 @@ function processItem() {
         name = eleItems[0];
       }
     }
-
-    deity = ''
-    if ($('#deity').val() != '0') {
-      deity = $('#deity').val();
-    }
     
-    pickedDate = $('#pickedDate').val();
-    simpleCart.add({
+    item = {
       name: name,
-      deity: deity,
       price: eleItems[1],
-      date: pickedDate,
-      instr: $('#instructions1').val()
-    });
+    };
+
+    if ($('#pickedDate').val().length > 0) {
+      item['PickedDate'] = $('#pickedDate').val();
+    }
+
+    if ($('#instructions1').val().length > 0) {
+      item['Comment'] = $('#instructions1').val();
+    }
+
+    simpleCart.add(item);
     
     displayNotice = 'Item has been added to the cart below!';    
     new Noty({
@@ -304,35 +305,76 @@ function processItem() {
 }
 
 function processFamily() {
+  if ($('#fullName').val().length == 0) {
+    new Noty({
+      theme: 'sunset',
+      text: 'Please enter a valid user name',
+      type: 'error',
+      layout: 'center',
+      timeout: 1500,
+      animation: {
+        open: 'animated bounceInDown', // Animate.css class names
+        close: 'animated bounceOutUp' // Animate.css class names
+      },
+    }).show();
+    $('#fullName').focus();
+  } 
+  else 
+  {
+    u = $('#fullName').val();
 
-  simpleCart.add({
-    name: $('#fullName').val(),
-    price: 0,
-    nakshatra: $('#naksha').val(),
-    raasi: $('#raasi').val(),
-    gotram: $('#gothram').val(),
-    email: $('#email').val(),
-    phone: $('#phone').val(),
-  });
-  $('#fullName').val('');
-  $('#naksha').val('-');
-  $('#raasi').val('-');
-  $('#gothram').val('');
-  $('#email').val('');
-  $('#phone').val('');
-  displayNotice = 'Family member details has been added to cart below!';    
-  new Noty({
-    theme: 'sunset',
-    text: displayNotice,
-    type: 'alert',
-    layout: 'center',
-    timeout: 1500,
-    animation: {
-      open: 'animated bounceInUp', // Animate.css class names
-      close: 'animated bounceOutDown' // Animate.css class names
-    },
-  }).show();
-  $('#fullName').focus();
+    c = '';
+    if ($('#email').val().length > 0) {
+      c = c + ' [' + $('#email').val() + ']';
+    }
+    if ($('#phone').val().length > 0) {
+      c = c +  ' [' + $('#phone').val() + ']';
+    }
+
+    d = $('#fullName').val();
+    if ($('#naksha').val() != '-'){
+      d = d + ' / ' + $('#naksha').val();
+    }
+    if ($('#raasi').val() != '-'){
+      d = d + ' / ' + $('#raasi').val();
+    }
+    if ($('#gothram').val().length > 0){
+      d = d + ' / ' + $('#gothram').val();
+    }
+    
+    cart = {};
+    cart['price'] = 0;
+    if (u.length > 0){
+      cart['name'] = u;
+    }
+    if (c.length > 0) {
+      cart['ContactInfo'] = c;
+    }
+    if (d.length > 0) {
+      cart['Detail'] = d;
+    }
+    simpleCart.add(cart);
+
+    $('#fullName').val('');
+    $('#naksha').val('-');
+    $('#raasi').val('-');
+    $('#gothram').val('');
+    $('#email').val('');
+    $('#phone').val('');
+    displayNotice = 'Family member details has been added to cart below!';    
+    new Noty({
+      theme: 'sunset',
+      text: displayNotice,
+      type: 'alert',
+      layout: 'center',
+      timeout: 1500,
+      animation: {
+        open: 'animated bounceInUp', // Animate.css class names
+        close: 'animated bounceOutDown' // Animate.css class names
+      },
+    }).show();
+    $('#fullName').focus();
+  }  
 }
 
 jQuery(document).ready(function($) {
