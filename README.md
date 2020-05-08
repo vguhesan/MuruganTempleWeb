@@ -1,10 +1,16 @@
 #### Welcome to MuruganTemple.org git source-code site
 
-Site is built on Hugo Static Site generator.
+The source code drives https://www.MuruganTemple.org/ website. It is built using Hugo Static Website Generator. It's sister repo (https://github.com/murugantemple/murugantemple.github.io) is the latest generated public folder that drives the website.
+
+### Screenshots
+![Screenshot #1](https://github.com/vguhesan/MuruganTempleWeb/blob/master/static/img/screenshots/site1-sml.jpg)
+![Screen-shot #2](https://github.com/vguhesan/MuruganTempleWeb/blob/master/static/img/screenshots/site2-sml.jpg)
 
 ### Hugo generate localhost server for development
 hugo server -D
 hugo server -D --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313
+
+when ready to deploy use "auto-deploy-to-github.sh" to deploy.
 
 ### Steps for deployment to GITHub
 
