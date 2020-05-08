@@ -14,9 +14,8 @@ when ready to deploy use "auto-deploy-to-github.sh" to deploy.
 
 ### Steps for deployment to GITHub
 
-The "public" directory is stored under murugantemple account for leveraging github-pages feature.
+The "public" directory is stored under a different murugantemple account for leveraging github-pages feature.
+
 Site is deployed using GitHub - Pages.
 git remote add origin https://github.com/murugantemple/murugantemple.github.io.git
 
-cd ~/Projects/2save/MTNAv2/WebSites/www
-./auto-deploy-to-github.sh
