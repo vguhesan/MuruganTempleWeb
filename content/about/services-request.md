@@ -22,7 +22,7 @@ If there is a service that is not listed, please make a general donation for the
                 <select class="form-control text-monospace txt-mono-sml" id="serviceList">
                   <option value="0">-- Select Service --</option>
                   <option value="Archanai,$9"                   >Archanai .................................... $9</option>
-                  <option value="Sahasranamam,$15"              >Sahasranamam ................................ $15</option>
+                  <option value="Sahasranamam,$11"              >Sahasranamam ................................ $11</option>
                   <option value="Murugan Abishekam,$101"        >Abishekam (Murugan - Main Diety) ............ $101</option>
                   <option value="Abishekam,$51"                 >Abishekam (All Others) ...................... $51</option>
                   <option value="Sangu Abishekam,$151"          >Abishekam (Sangu) ........................... $151</option>

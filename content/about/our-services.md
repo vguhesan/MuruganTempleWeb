@@ -6,9 +6,10 @@ draft: false
 
 <a class="btn btn-success m-2 float-right" href="/about/services-request/" role="button">Pooja Booking & Services Request</a>
 
+<b>Click on "<a href='/about/services-request/'>Pooja Booking & Services Request</a>" for requesting your online services.</b>
+
 The following are among the services that will be provided at the Temple or at Devotees’ residences as appropriate, upon request. Devotees are urged to make prior arrangements by calling the Temple in advance to make reservations and to ascertain that priests will be available to perform these special requests. Appropriate charge for the services including Sambhavanai for the priests will be payable to the temple.
 
-<b>Click on "<a href='/about/services-request/'>Pooja Booking & Services Request</a>" for requesting your online services.</b>
 
 <table border="1" cellspacing="0" cellpadding="5">
 <tbody>
@@ -29,9 +30,9 @@ The following are among the services that will be provided at the Temple or at D
 <tr>
 <td>Sahasranamam</td>
 <td>Sahasranamam</td>
-<td>$15</td>
+<td>$11</td>
 <td>-</td>
-<td>$15</td>
+<td>$11</td>
 </tr>
 <tr>
 <td>Abhishekam to Washington Murugan (Main Deities)</td>
