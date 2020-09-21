@@ -8,8 +8,17 @@
 	color: #fff;
 }
 
+.containersml {
+	width: 450px;
+}
+
 #headernote {
     background-color: #c7ced5;
+    color: #174068;
+}
+
+#headernote2 {
+    background-color: #06073a;
     color: #174068;
 }
 
@@ -834,3 +843,14 @@ hr.style18:before {
 	font-size: 20px;
 }
 
+.fgColorRed{
+	color: #B24540;
+}
+
+.fgColorGreen{
+	color: #278800;
+}
+
+.fgColorGreen2{
+	color: #1f5708;
+}

@@ -20,16 +20,9 @@ If there is a service that is not listed, please make a general donation for the
             <div class="row">
               <div class="col p-1">
                 <select class="form-control text-monospace txt-mono-sml" id="serviceList">
-                  <option value="0">-- Select Service --</option>
-                  <option value="0"                             >------ BRAHMOTSAVAM SERVICES -----------------------------</option>
-                  <option value="Brahmotsavam Archanai,$9"            >Brahmotsavam Archanai Sponsorship ............ $9</option>
-                  <option value="Brahmotsavam Homam,$21"              >Brahmotsavam Homam Sponsorship ............... $21</option>
-                  <option value="Brahmotsavam Thirukalyanam,$21"      >Brahmotsavam Thirukalyanam Sponsorship ....... $21</option>
-                  <option value="Brahmotsavam Murugan Abishekam,$75"  >Brahmotsavam Murugan Abishekam Sponsorship ... $75</option>
-                  <option value="Brahmotsavam One-Day Sponsorship,$91">Brahmotsavam One-Day Sponsorship ............. $91</option>
-                  <option value="Brahmotsavam 10-Day Sponsorship,$701">Brahmotsavam All 10-Day Sponsorship .......... $701</option>
-                  <option value="0"                             >----------------------------------------------------------</option>
+                  <option value="0" selected>-- Select Service --</option>
                   <option value="Archanai,$9"                   >Archanai .................................... $9</option>
+                  <option value="Moksha Archanai,$11"           >Moksha Archanai ............................. $11</option>
                   <option value="Sahasranamam,$11"              >Sahasranamam ................................ $11</option>
                   <option value="Murugan Abishekam,$101"        >Abishekam (Murugan - Main Deity Only) ....... $101</option>
                   <option value="Abishekam,$51"                 >Abishekam (All Other Deities) ............... $51</option>
@@ -46,7 +39,7 @@ If there is a service that is not listed, please make a general donation for the
                   <option value="Neivedhyam (large tray),$91"   >Neivedhyam (large tray) ..................... $91</option>
                   <option value="Vada Malai (51 vadai),$41"     >Vada Malai (for 51 vadai) ................... $41</option>
                   <option value="Vada Malai (101 vadai),$75"    >Vada Malai (for 101 vadai) .................. $75</option>
-                  <option value="0"                             >----------------------------------------------------------</option>
+                  <option value="0"                             >----</option>
                   <option value="Test,$1"                       >Test (no service will be performed) ......... $1</option>
                 </select>
               </div>
@@ -109,7 +102,7 @@ If there is a service that is not listed, please make a general donation for the
     </div>
     <div class="col-sm">
       <div class="card">
-        <h5 class="card-header">Step 2 of 3: Family Details (optional)</h5>
+        <h5 class="card-header">Step 2 of 3: Family/Sangalpam Details (optional)</h5>
         <div class="card-body">
           Enter details of each member of your family and add them to the cart. Then proceed to step 3.
           <div class="row">

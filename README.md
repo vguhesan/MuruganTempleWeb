@@ -19,3 +19,4 @@ The "public" directory is stored under a different murugantemple account for lev
 Site is deployed using GitHub - Pages.
 git remote add origin https://github.com/murugantemple/murugantemple.github.io.git
 
+cd ./static; tree -H '/banner-images' -L 1 --noreport --charset utf-8 -P "*.jpg|*.png" ./banner-images/ > ./banner-images/index.html; tree -H '/slider-images' -L 1 --noreport --charset utf-8 -P "*.jpg|*.png" ./slider-images/ > ./slider-images/index.html; cd ..;
