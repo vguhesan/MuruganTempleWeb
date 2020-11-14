@@ -12,7 +12,7 @@ If there is a service that is not listed, please make a general donation for the
   <div class="row">
     <div class="col-sm">
       <div class="card">
-        <h5 class="card-header">Step 1 of 3: Service</h5>
+        <h5 class="card-header">Step 1 of 4: Choose Service (<span style="color: #a21414;">required</span>)</h5>
         <div class="card-body">
           Please add each of the required services one by one to your cart. Then proceed to step 2.
           <form>
@@ -21,15 +21,13 @@ If there is a service that is not listed, please make a general donation for the
               <div class="col p-1">
                 <select class="form-control text-monospace txt-mono-sml" id="serviceList">
                   <option value="0" selected>-- Select Service --</option>
-                  <option value="0"                             >------ SKANDHA SHASTI SERVICES -----------------------------</option>
+                  <option value="-1"                             >------ SKANDHA SHASTI SERVICES -----------------------------</option>
                   <option value="SPONSOR (All Six Days),$201"          >SPONSOR (All Six Days) ...................... $201</option>
                   <option value="Murugan Abishekam (Daily),$101"       >Murugan Abishekam (Daily) ................... $101</option>
                   <option value="Subramanya Homam (Nov 15 and 20),$31" >Subramanya Homam (Nov 15, 20) ............... $31 (each day)</option>
                   <option value="Thirukalyanam (Nov 21),$31"           >Thirukalyanam (Nov 21) ...................... $31</option>
                   <option value="Murugan Sahasranamam (Nov 15 to 19 - via zoom),$11" >Murugan Sahasranamam (Nov 15-19 - via zoom) . $201</option>
-                  <option value="0"                             >------ SPECIAL SERVICES -----------------------------</option>
-                  <option value="Lakshmi Kuberan Poojai via ZOOM,$11">Lakshmi Kuberan Poojai via ZOOM ............. $11</option>
-                  <option value="0"                             >------ REGULAR SERVICES -----------------------------</option>
+                  <option value="-2"                             >------ REGULAR SERVICES -----------------------------</option>
                   <option value="Archanai,$9"                   >Archanai .................................... $9</option>
                   <option value="Moksha Archanai,$11"           >Moksha Archanai ............................. $11</option>
                   <option value="Sahasranamam,$11"              >Sahasranamam ................................ $11</option>
@@ -48,7 +46,7 @@ If there is a service that is not listed, please make a general donation for the
                   <option value="Neivedhyam (large tray),$91"   >Neivedhyam (large tray) ..................... $91</option>
                   <option value="Vada Malai (51 vadai),$41"     >Vada Malai (for 51 vadai) ................... $41</option>
                   <option value="Vada Malai (101 vadai),$75"    >Vada Malai (for 101 vadai) .................. $75</option>
-                  <option value="0"                             >----</option>
+                  <option value="-3"                             >----</option>
                   <option value="Test,$1"                       >Test (no service will be performed) ......... $1</option>
                 </select>
               </div>
@@ -74,7 +72,7 @@ If there is a service that is not listed, please make a general donation for the
               </div>
             </div>
             <div class="row">
-              <div class="col pt-1">
+              <div class="col p-1">
                 <div class="form-group">
                   <p class="card-text">Choose Date (to perform service):</p>
                 </div>
@@ -111,7 +109,7 @@ If there is a service that is not listed, please make a general donation for the
     </div>
     <div class="col-sm">
       <div class="card">
-        <h5 class="card-header">Step 2 of 3: Family/Sangalpam Details (optional)</h5>
+        <h5 class="card-header">Step 2 of 4: Family/Sangalpam Details (<span style="color: #0f9342;">optional</span>)</h5>
         <div class="card-body">
           Enter details of each member of your family and add them to the cart. Then proceed to step 3.
           <div class="row">
@@ -178,25 +176,40 @@ If there is a service that is not listed, please make a general donation for the
             </div>
           </div>
           <div class="row">
-            <div class="col m-1">
-              If you are the primary member, please provide contact details.
-            </div>
-          </div>
-          <div class="row">
-            <div class="col m-1">
-              <input type="text" class="form-control" id="email" placeholder="Email (only for primary)">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col m-1">
-              <input type="text" class="form-control" id="phone" placeholder="Phone (only for primary)">
-            </div>
-          </div>
-          <div class="row">
             <div class="col m-1 d-flex justify-content-center">
               <a href="#" class="btn btn-primary btn-sm" onClick="javascript: processFamily();">Add Member Details To Cart</a>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col p-1">&nbsp;
+        </div>
+      </div>
+      <div class="card">
+        <h5 class="card-header">Step 3 of 4: Primary Contact Details (<span style="color: #a21414;">required</span>)</h5>
+        <div class="card-body">
+            <div class="row">
+              <div class="col p-1">
+                Only one email and phone should be added to cart.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <input type="text" class="form-control" id="phone" placeholder="Phone">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1 d-flex justify-content-center">
+                <a class="btn btn-primary btn-sm" href="javascript:;" id="addItemToCart" 
+                onClick="javascript: processContact();" role="button">Add Contact Details</a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -213,9 +226,9 @@ If there is a service that is not listed, please make a general donation for the
 <div class="row">
   <div class="col-lg-12" align="center">
     <div class="card">
-      <h5 class="card-header">Step 3 of 3: Checkout</h5>
+      <h5 class="card-header">Step 4 of 4: Checkout</h5>
       <div class="card-body">
-        <div class="cartdetails_lbl">Shopping Cart Details:</div>
+        <div class="cartdetails_lbl" id="checkout">Shopping Cart Details:</div>
         <div class="simpleCart_items"></div>
         <div class="simpleCartTotal_parent">
         Total: <span class="simpleCart_total"></span>
@@ -253,7 +266,11 @@ jQuery(document).ready(function($) {
 });
 function loadInitialCart() {
   simpleCart.each(function(item){
-    if (item.get('dateaddedtocart') === undefined) {
+    // if (item.get('dateaddedtocart') === undefined) {
+    //   item.remove(); 
+    // }
+    // cart['dateaddedtocart'] = moment().format('YYYYMMDD');
+    if (item.get('dateaddedtocart') === undefined || item.get('dateaddedtocart') < 20201114) {
       item.remove(); 
     }
   });
@@ -264,7 +281,7 @@ function loadInitialCart() {
 function processItem() {
   selOption = $('#serviceList').val();
   skipAdd = true;
-  if (selOption == '0') {
+  if (selOption == '0' || selOption < 0) {
     //alert("Please choose a service");
     new Noty({
       theme: 'sunset',
@@ -370,14 +387,6 @@ function processFamily() {
   {
     u = $('#fullName').val();
 
-    c = '';
-    if ($('#email').val().length > 0) {
-      c = c + ' [' + $('#email').val() + ']';
-    }
-    if ($('#phone').val().length > 0) {
-      c = c +  ' [' + $('#phone').val() + ']';
-    }
-
     d = $('#fullName').val();
     if ($('#naksha').val() != '-'){
       d = d + ' / ' + $('#naksha').val();
@@ -394,20 +403,17 @@ function processFamily() {
     if (u.length > 0){
       cart['name'] = u;
     }
-    if (c.length > 0) {
-      cart['ContactInfo'] = c;
-    }
     if (d.length > 0) {
       cart['Detail'] = d;
     }
+    cart['dateaddedtocart'] = moment().format('YYYYMMDD');
+    removeFamilyDetailsWithSameName(u);
     simpleCart.add(cart);
 
     $('#fullName').val('');
     $('#naksha').val('-');
     $('#raasi').val('-');
     $('#gothram').val('');
-    $('#email').val('');
-    $('#phone').val('');
     displayNotice = 'Family member details has been added to cart below!';    
     new Noty({
       theme: 'sunset',
@@ -422,6 +428,68 @@ function processFamily() {
     }).show();
     $('#fullName').focus();
   }  
+}
+
+function processContact() {
+  c = '';
+  if ($('#email').val().length > 0) {
+    c = c + '' + $('#email').val() + ';';
+  }
+  if ($('#phone').val().length > 0) {
+    c = c +  '' + $('#phone').val() + '';
+  }
+  
+  cart = {};
+  cart['price'] = 0;
+  if (c.length > 0){
+    cart['name'] = "CONTACT-DETAILS :: "+c;
+  }
+  if (c.length > 0) {
+    cart['ContactInfo'] = c;
+  }
+  cart['dateaddedtocart'] = moment().format('YYYYMMDD');
+  removeAllOtherContactDetails();
+  simpleCart.add(cart);
+
+  $('#email').val('');
+  $('#phone').val('');
+  displayNotice = 'Contact detail has been added to cart below!';    
+  new Noty({
+    theme: 'sunset',
+    text: displayNotice,
+    type: 'alert',
+    layout: 'center',
+    timeout: 1500,
+    animation: {
+      open: 'animated bounceInUp', // Animate.css class names
+      close: 'animated bounceOutDown' // Animate.css class names
+    },
+  }).show();
+  $('#checkout').focus();
+}
+
+function removeAllOtherContactDetails() {
+  simpleCart.each(function(item){
+    // if (item.get('dateaddedtocart') === undefined) {
+    //   item.remove(); 
+    // }
+    // cart['dateaddedtocart'] = moment().format('YYYYMMDD');
+    if (item.get('name') !=  undefined && item.get('name').indexOf('CONTACT-DETAILS') > -1) {
+      item.remove(); 
+    }
+  });
+}
+
+function removeFamilyDetailsWithSameName(name) {
+  simpleCart.each(function(item){
+    // if (item.get('dateaddedtocart') === undefined) {
+    //   item.remove(); 
+    // }
+    // cart['dateaddedtocart'] = moment().format('YYYYMMDD');
+    if (item.get('name') !=  undefined && item.get('name') == name) {
+      item.remove(); 
+    }
+  });
 }
 
 jQuery(document).ready(function($) {
