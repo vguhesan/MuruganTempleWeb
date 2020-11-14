@@ -21,6 +21,15 @@ If there is a service that is not listed, please make a general donation for the
               <div class="col p-1">
                 <select class="form-control text-monospace txt-mono-sml" id="serviceList">
                   <option value="0" selected>-- Select Service --</option>
+                  <option value="0"                             >------ SKANDHA SHASTI SERVICES -----------------------------</option>
+                  <option value="SPONSOR (All Six Days),$201"          >SPONSOR (All Six Days) ...................... $201</option>
+                  <option value="Murugan Abishekam (Daily),$101"       >Murugan Abishekam (Daily) ................... $101</option>
+                  <option value="Subramanya Homam (Nov 15 and 20),$31" >Subramanya Homam (Nov 15, 20) ............... $31 (each day)</option>
+                  <option value="Thirukalyanam (Nov 21),$31"           >Thirukalyanam (Nov 21) ...................... $31</option>
+                  <option value="Murugan Sahasranamam (Nov 15 to 19 - via zoom),$11" >Murugan Sahasranamam (Nov 15-19 - via zoom) . $201</option>
+                  <option value="0"                             >------ SPECIAL SERVICES -----------------------------</option>
+                  <option value="Lakshmi Kuberan Poojai via ZOOM,$11">Lakshmi Kuberan Poojai via ZOOM ............. $11</option>
+                  <option value="0"                             >------ REGULAR SERVICES -----------------------------</option>
                   <option value="Archanai,$9"                   >Archanai .................................... $9</option>
                   <option value="Moksha Archanai,$11"           >Moksha Archanai ............................. $11</option>
                   <option value="Sahasranamam,$11"              >Sahasranamam ................................ $11</option>

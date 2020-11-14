@@ -1,6 +1,6 @@
 ---
 title: "Murugan Temple : Check-In Forms and Process For Visiting Temple"
-date: 2020-07-08T19:38:20-05:00
+date: 2020-11-05
 draft: false
 ---
 
@@ -15,9 +15,21 @@ draft: false
 	</div>
 </div>
 
+
+<!--
 <div>
 	<div class="col-lg-12" align="center">
-		<h5>The Schedule</h5> 
+		<h5 class="fgColorRed">Temple is Temporarily Closed</h5>
+		<b>The temple is "temporarily" closed due to the atmosphere imposed by the ongoing election results. We will assess the situation daily and take appropriate action. The priests will perform the usual poojas and abhisekams. Poojas will be telecasted on Facebook page. Please check back on this page for updates. Thank You.</b>
+		<hr>
+	</div>
+</div>
+-->
+
+
+<div>
+	<div class="col-lg-12" align="center">
+		<h5>Regular Schedule</h5> 
 		<b>Visiting Hours (With Limited Access) to the public:<br>NO EXCEPTIONS</b>
 		<div class="containersml p-2 justify-content-center align-items-center">
 			<div class="row">
@@ -106,7 +118,8 @@ draft: false
 				<li>Masks are required for all visitors two-years of age or above.</li>
 				<li>Additional instructions can be found <a href='/about/additional-instructions/' target='_self'>here</a>.</li>
 			</ul>
-		<a class="btn btn-warning m-2 float-center" href="/docs/COVID-19-ScreeningForm.pdf?rnd=09292020" role="button" target="_blank">Click Here For The Printable Check-In Form</a><br> 
+		<a class="btn btn-warning m-2 float-center" href="/docs/COVID-19-ScreeningForm.pdf?rnd=10262020" role="button" target="_blank">Click Here For The Printable Check-In Form</a><br> 
 		<img src="/img/misc/peacock-border.png" class="img-fluid rounded float-center p-2" width="200" alt="flower divider">  
 	</div>
 </div>
+
