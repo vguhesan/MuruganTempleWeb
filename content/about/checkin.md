@@ -11,7 +11,6 @@ draft: false
 		<b>The rules, timings and procedures are in place for your own safety and the safety of others at the temple.<br>PLEASE READ, UNDERSTAND AND RESPECT THE RULES!
 		<br>
 		Thank You.</b><br>
-		<img src="/img/misc/peacock-border.png" class="img-fluid rounded float-center p-2" width="200" alt="flower divider">
 	</div>
 </div>
 
@@ -25,11 +24,40 @@ draft: false
 	</div>
 </div>
 -->
-
+<div>
+	<div class="col-lg-12" align="center">
+		<hr class="style14">
+	</div>
+</div>
 
 <div>
 	<div class="col-lg-12" align="center">
-		<h5>Regular Schedule</h5> 
+		<h5 class="fgColorGreen">Skandha Shasti Schedule</h5> 
+		<b>Sun, Nov. 15th to Sat Nov 21st, 2020</b><br>
+		<div class=" p-2 justify-content-center align-items-center">
+			<div class="row">
+	          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-0 pb-0">
+	            Abishekam, Homam, and Thirukalyanam will be telecasted via FaceBook Live.<br>
+				No in-person devotees for any of the pooja. Devotees can visit the temple on:<br>
+				<b>Weekdays</b>: 10 to 12 / 6 to 8:30<br>
+				<b>Weekends</b>: 10:30 to 2 pm / 6 to 8:30 pm<br>
+				Murugan Sahasarnamam will be telecasted on Zoom from Nov 15 to 19 on Zoom at 5:15 pm.<br>
+				Registrants will get a Zoom link $11.
+	          </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+<div>
+	<div class="col-lg-12" align="center">
+		<hr class="style14">
+	</div>
+</div>
+
+<div>
+	<div class="col-lg-12" align="center">
+		<h5 class="fgColorGreen">Regular Schedule</h5> 
 		<b>Visiting Hours (With Limited Access) to the public:<br>NO EXCEPTIONS</b>
 		<div class="containersml p-2 justify-content-center align-items-center">
 			<div class="row">
@@ -76,17 +104,13 @@ draft: false
 	            Both morning and evening slots on Wednesdays, and Thursday mornings will be solely reserved for senior citizens (60 and above). However, on their own risk, senior citizens can also visit at other visiting times. Accompanies for senior citizen, who is under the age of 60, will not be allowed during the Senior citizen slot.
 	          </div>
 	        </div>
-	        <div class="row">
-	          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-0 pb-0">
-	            <hr class="style14">
-	          </div>
-	        </div>
-	        <div class="row">
-	          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-0 pb-0">
-	            <img src="/img/misc/peacock-border.png" class="img-fluid rounded float-center p-2" width="200" alt="flower divider">
-	          </div>
-	        </div>
 	    </div>
+	</div>
+</div>
+
+<div>
+	<div class="col-lg-12" align="center">
+		<hr class="style14">
 	</div>
 </div>
 
