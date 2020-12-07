@@ -14,16 +14,6 @@ draft: false
 	</div>
 </div>
 
-
-<!--
-<div>
-	<div class="col-lg-12" align="center">
-		<h5 class="fgColorRed">Temple is Temporarily Closed</h5>
-		<b>The temple is "temporarily" closed due to the atmosphere imposed by the ongoing election results. We will assess the situation daily and take appropriate action. The priests will perform the usual poojas and abhisekams. Poojas will be telecasted on Facebook page. Please check back on this page for updates. Thank You.</b>
-		<hr>
-	</div>
-</div>
--->
 <div>
 	<div class="col-lg-12" align="center">
 		<hr class="style14">
@@ -32,18 +22,30 @@ draft: false
 
 <div>
 	<div class="col-lg-12" align="center">
-		<h5 class="fgColorGreen">During Skandha Shasti</h5> 
-		<b>Sun, Nov. 15th to Sat Nov 21st, 2020</b><br>
-		<div class=" p-2 justify-content-center align-items-center">
-			<div class="row">
-	          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-0 pb-0">
-	          	The temple will be open to the public on both Fri, Nov 11th and Sat, Nov 12th between 10:30am to 12:30pm<br>
-				An update will be provided for Sunday. Please check back! Telecasting will be done as usual on Facebook Live!<br>
-				Please check back! Telecasting will be done as usual on Facebook Live!<br>
-	          	You can sponsor poojas via our website. <br>
-	          </div>
-	        </div>
-	    </div>
+		<h5 class="fgColorRed">Temple Schedule</h5>
+		<b>
+			The temple will follow the following schedule:<br>
+			The temple is closed to the public until further notice.<br>
+			Please note that all poojas will be performed daily and telecasted on <a href="https://www.facebook.com/watch/MuruganTempleNorthAmerica/">Facebook Live</a>.<br>
+			Consider <a href="/about/services-request/">Sponsoring Online Events</a> and <a href="/about/donate-online/">Donating</a> towards Murugan Temple.
+		</b>
+		<hr>
+	</div>
+</div>
+
+<!--
+<div>
+	<div class="col-lg-12" align="center">
+		<h5 class="fgColorRed">Temple Schedule</h5>
+		<b>
+			Until further changes, the temple will follow the following schedule:<br>
+			The temple will be closed to the public on weekdays.<br>
+			Weekends: (Sat. Sun.) : 11:30am - 1:30pm : Kitchen Will Be Closed.<br>
+			Please note that all poojas will be performed daily and telecasted on Facebook Live.<br>
+			Please visit: <a href="https://www.facebook.com/watch/MuruganTempleNorthAmerica/">FaceBook Live</a><br>
+			Consider Sponsoring and Supporting Murugan Temple.
+		</b>
+		<hr>
 	</div>
 </div>
 
@@ -111,6 +113,7 @@ draft: false
 		<hr class="style14">
 	</div>
 </div>
+-->
 
 <div>
 	<div class="col-lg-12" align="center">
